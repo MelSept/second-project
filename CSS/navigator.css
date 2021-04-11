@@ -1,0 +1,135 @@
+/** Menu de navegacion **/
+
+
+.list-container .lists{
+   margin:0;
+   list-style: none;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+      
+}
+
+.menu li {
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+.menu li:hover{
+    background-color: rgba(36, 111, 197, 0.705);
+}
+
+.menu .list-container .lists li {
+    padding: 0 10px;
+    margin-top: 0px;
+    font-weight: 400;
+    display: inline-block;
+    cursor: pointer; 
+    font-size: 16px;
+             
+}
+
+.menu .list-container .lists li a{
+
+ display: block;
+ padding: 15px 20px;
+ color:seashell;
+ text-decoration: none;
+}
+
+.Inicio{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Inicio .box-inicio{ 
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Inicio .box-inicio .card-inicio{
+    width: 40%;
+    margin: 20px;    
+}
+
+.Inicio .box-inicio .card-inicio .card-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.Inicio .box-inicio .card-inicio .card-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    align-items: center;
+}
+
+.Inicio .box-inicio .card-inicio .inicio-text {
+    width: 100%;
+    margin-top: 60px;
+                
+}
+
+.Inicio .box-inicio .inicio-text h4{
+    color: indianred;
+    font-weight: normal;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.Inicio .box-inicio .card-inicio .inicio-text p{
+    font-size: 19px;
+    color: var(--black);
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid indianred;
+    margin-top: 10px;
+    margin-bottom: 56px;
+    display:block;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+@media (max-width:768px) {
+
+    header label {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        background: indianred;
+        width: 70%;
+        margin-left: -100%;
+        transition: all 0.5s;
+    }
+
+    .menu .list-container .lists{
+        flex-direction: column;
+    }
+
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+
+    #btn-menu:checked ~ .menu {
+        margin: 0;
+
+    }
+
+}
+
+ 
+
+

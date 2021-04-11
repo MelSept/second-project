@@ -1,0 +1,54 @@
+.Nosotros{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Nosotros .info-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Nosotros .info-container h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.Nosotros .info-container p {
+    text-align: center;
+    font-size: 18px;
+    color: var(--black);
+    line-height: 35px;
+    margin: 10px 0px;
+    border: 1px solid indianred;
+    margin-top: 10px;
+    margin-bottom: 56px;
+    display:block;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Nosotros.info-container .about-gallery {
+
+    width: 100%;
+    display: flex;
+    justify-content: flex;
+    margin: 50px 0px;
+}
+
+.Nosotros .info-container .about-gallery img{ 
+    width: 31%;
+    height: 400px;
+    object-fit: cover;
+    margin: 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;    
+    display: auto;
+   }

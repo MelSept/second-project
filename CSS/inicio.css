@@ -1,0 +1,91 @@
+body {
+    margin: o;
+    font-family: sans-serif;
+}
+header {
+    width: 100%;
+    background-color: indianred;
+}
+
+#btn-menu {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+header label:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.img-header .welcome{
+    background: rgb(255, 255, 255);
+    
+    display: flex;
+    justify-content: center;
+    }
+    
+    .img-header .welcome img {
+     height: auto;
+    
+    }
+
+.list-container .lists{
+   margin:0;
+   list-style: none;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+      
+}
+
+.menu li {
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+.menu li:hover{
+    background-color: rgba(36, 111, 197, 0.705);
+}
+
+.menu .list-container .lists li {
+    padding: 0 10px;
+    margin-top: 0px;
+    font-weight: 400;
+    display: inline-block;
+    cursor: pointer; 
+    font-size: 16px;
+             
+}
+
+.menu .list-container .lists li a{
+
+ display: block;
+ padding: 15px 20px;
+ color:seashell;
+ text-decoration: none;
+}
+
+.footer-text{
+    position: absolute;
+    background: indianred;
+    border-top: 5px solid #fff;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .footer-text p{
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+}
+  

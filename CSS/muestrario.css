@@ -1,0 +1,52 @@
+.muestrario{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;    
+}
+
+
+.muestrario .container-muestrario{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.muestrario .container-muestrario .muestrario-title{
+    border: 2px solid indianred;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.muestrario .container-muestrario .muestrario-title h2 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+
+.muestrario .container-muestrario .muestrario-title hr {
+    background: #fff;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.muestrario .container-muestrario .muestrario-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+.muestrario .container-muestrario .muestrario-img img{
+    width: calc(30% - 10px);
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+
+    
