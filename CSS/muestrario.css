@@ -7,29 +7,23 @@
 
 
 .muestrario .container-muestrario{
-    width: 90%;
+    width: 100%;
     margin: auto;
-    padding-top: 30px;
+    
 }
 
 .muestrario .container-muestrario .muestrario-title{
     border: 2px solid indianred;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     width: 50%;
     margin: auto;
 }
 
 .muestrario .container-muestrario .muestrario-title h2 {
-    font-size: 40px;
+    font-size: 35px;
     color: rgb(0, 0, 0);
     font-weight: normal;
-}
-
-.muestrario .container-muestrario .muestrario-title hr {
-    background: #fff;
-    width: 50%;
-    margin: 10px auto;
 }
 
 .muestrario .container-muestrario .muestrario-img{
@@ -48,5 +42,10 @@
     border-radius: 10px;
     cursor: pointer;
     }
+
+.muestrario .container-muestrario .muestrario-img img:hover{
+
+    filter: drop-shadow(0 0 0.75rem crimson);
+}   
 
     

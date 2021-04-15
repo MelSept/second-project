@@ -13,26 +13,33 @@
 }
 
 .nuestroespacio .info-container h1 {
-    font-size: 50px;
-    font-weight: 400;
-    color: var(--black);
+
+    border: 2px solid indianred;
+    padding: 20px;
     text-align: center;
-    margin-bottom: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: normal;
+    font-size: 35px;
     
 }
 
+
 .nuestroespacio .info-container p {
+    
     text-align: center;
-    font-size: 18px;
-    color: var(--black);
+    font-size: 15px;
+    color: black;
     line-height: 35px;
     margin: 10px 0px;
-    border: 1px solid indianred;
     margin-top: 10px;
     margin-bottom: 56px;
     display:block;
     text-align: center;
     border-radius: 20px;
+    font-family: cursive;
 }
 
 .nuestroespacio .info-container .about-gallery {
@@ -52,3 +59,8 @@
     cursor: pointer;    
     display: auto;
    }
+
+   .nuestroespacio .info-container .about-gallery img:hover {
+
+    filter: drop-shadow(0 0 0.75rem crimson);
+   }  
