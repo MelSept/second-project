@@ -64,3 +64,16 @@
 
     filter: drop-shadow(0 0 0.75rem crimson);
    }  
+
+   @media (max-width:768px) {
+
+    .nuestroespacio .info-container{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+
+   }

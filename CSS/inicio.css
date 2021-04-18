@@ -1,5 +1,5 @@
 body {
-    margin: o;
+    margin: 0;
     font-family: sans-serif;
 }
 header {
@@ -32,7 +32,7 @@ header label:hover {
     }
     
     .img-header .welcome img {
-     height: auto;
+     height: 90%;
     
     }
 
@@ -89,3 +89,48 @@ header label:hover {
     font-size: 20px;
 }
   
+@media (max-width:768px) {
+
+    header label {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        background: indianred;
+        width: 70%;
+        margin-left: -100%;
+        transition: all 0.5s;
+    }
+
+    .menu .list-container .lists{
+        flex-direction: column;
+    }
+
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+
+    #btn-menu:checked ~ .menu {
+        margin: 0;
+
+    }
+
+    .img-header .welcome img {
+        
+        width: 100%;
+        height: 100%;
+               
+               
+       }
+
+    .footer-text p{
+
+      font-size: 15px;
+    }   
+
+   
+ 
+
+
+}

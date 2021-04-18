@@ -1,6 +1,5 @@
 /** Menu de navegacion **/
 
-
 .list-container .lists{
    margin:0;
    list-style: none;
@@ -112,34 +111,22 @@
 }
 
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
 
-    header label {
-        display: block;
-    }
+    .Inicio .box-inicio{
 
-    .menu {
-        position: absolute;
-        background: indianred;
-        width: 70%;
-        margin-left: -100%;
-        transition: all 0.5s;
-    }
-
-    .menu .list-container .lists{
+        width: 100%;
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
     }
 
-    .menu li {
-        border-top: 1px solid #fff;
-    }
-
-    #btn-menu:checked ~ .menu {
-        margin: 0;
-
-    }
+    
 
 }
+
 
  
 
